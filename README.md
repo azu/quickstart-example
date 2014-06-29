@@ -6,11 +6,17 @@ Example project of [QuickStart](http://spotify.github.io/quickstart/ "QuickStart
 
 ```sh
 npm install
+# develop
+npm run quickstart
+npm run watch # == broserify
+# build
+npm run build-q # build with quickstart
+npm run build-b # build with browserify
 ```
 
 ## Usage
 
-- [ ] Write usage instructions
+Open http://azu.github.io/quickstart-example/
 
 ## Contributing
 

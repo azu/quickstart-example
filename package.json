@@ -1,0 +1,37 @@
+{
+  "name": "quickstart-example",
+  "description": "QuickStart of QuickStart",
+  "version": "0.0.1",
+  "homepage": "https://github.com/azu/quickstart-example/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/quickstart-example.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "quickstart": "quickstart --self --source-map > bundle.js",
+    "watch": "watchify index.js -v -d -o bundle.js",
+    "build-q": "quickstart > bundle.js",
+    "build-b": "browserify index.js -o bundle.js",
+    "test": "mocha test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/quickstart-example/issues"
+  },
+  "devDependencies": {
+    "browserify": "^4.2.0",
+    "quickstart": "^1.0.0"
+  },
+  "dependencies": {
+    "codemirror": "^4.3.0",
+    "img": "0.0.1",
+    "jquery": "^2.1.1",
+    "lodash": "^2.4.1",
+    "xhr": "^1.10.0"
+  }
+}

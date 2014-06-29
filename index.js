@@ -26,7 +26,7 @@ function lgtmImg(callback) {
 }
 
 lgtmImg(function (error, imageURL) {
+    assert(error == null);
     var imgTag = createImg(imageURL);
-    assert(false);
     document.body.appendChild(imgTag);
 });
